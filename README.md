@@ -1,2 +1,20 @@
-# MovieSearch
-A full-featured React-based Movie Search Application built using the OMDB API. This app allows users to search for movies, explore detailed movie information, filter results by type, and navigate seamlessly between pages using React Router.
+# OMDB Movies Search (React + Vite + Tailwind)
+
+A full-featured movie search app using the OMDB API. Search titles, filter by type (movie/series/episode) via API, paginate results, view detailed info, and manage favorites locally.
+
+## Features
+- Search with query + type filter (API-based, no client-side `array.filter`)
+- Pagination using OMDB `page` param
+- Detailed view: poster, year, genre, plot, ratings, cast
+- Favorites stored in `localStorage`
+- Robust error and empty states
+- Clean UI with Tailwind
+
+## Tech
+- React, React Router v6
+- Vite
+- Tailwind CSS
+- Axios
+
+## Setup
+1. Create `.env`:
