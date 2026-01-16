@@ -14,7 +14,6 @@ A full-featured movie search app using the OMDB API. Search titles, filter by ty
 - React, React Router v6
 - Vite
 - Tailwind CSS
-- Axios
 
 ## Setup
 1. Create `.env`:
