@@ -18,3 +18,7 @@ A full-featured movie search app using the OMDB API. Search titles, filter by ty
 
 ## Setup
 1. Create `.env`:
+2. Install & run:
+```bash
+npm i
+npm run dev
